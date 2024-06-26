@@ -11,7 +11,7 @@
 :root{
     --bg-color: #ffffff;
     --text-color: #000;
-    --second-color: #f75023;
+    --secound-color: #f75023;
     --big-font:5rem;
     --h2-font:3rem;
     --p-font:1.1rem;
@@ -34,18 +34,18 @@ header{
     background: transparent;
     padding: 30px 18%;
     transition: .3s;
-
+    
 }
 
 .logo img{
     max-width: 100%;
     width: 260px;
     height: 85px;
-
+    
 }
 
 .navlist{
-    display: flex;
+    display: flex; 
 }
 
 .navlist li{
@@ -112,7 +112,7 @@ header{
         transition: ease 0.4s;
     }
     .top-btn{
-
+        
         border-radius: 50px;
         border: 2px solid #FFA500;
         font-weight: 750;
@@ -220,7 +220,7 @@ span{
         margin-right: 22px;
         margin-bottom:  30px;
     }
-
+    
     .social a:hover{
         transform:  scale(1.1);
         background: var(--secound-color);
@@ -284,7 +284,7 @@ span{
 .home-img img{
     height: 500%;
     width: 500px;
-
+    
 }
 
 header.sticky{
@@ -335,8 +335,8 @@ header.sticky{
     width: 35%; /* Full width */
     background-color: #ddd; /* Grey background */
   }
-
-
+  
+  
 .experiences{
     margin-top: 45px;
     margin-bottom: 45px;
@@ -354,9 +354,9 @@ header.sticky{
         Line-height: 26px;
         margin-bottom: 25px;
         }
-
-
-
+      
+          
+    
               .mission p{
                     font-size: 22px;
                 }
@@ -397,7 +397,7 @@ header.sticky{
     grid-template-columns: repeat(2, 2fr);
     align-items: center;
     grid-gap: 10rem;
-
+    
     }
     .navlist{
         position: absolute;
@@ -410,11 +410,13 @@ header.sticky{
         transition: all .40s;
     }
     .navlist a{
-        display: block;
-        padding: 1.2rem;
-        margin: 1.5rem;
-        border-radius: 2px solid var(--bg-color);
-        color: var(--bg-color);
+        font-size: var(--p-font);
+        color: var(--text-color);
+        font-weight: 500;
+        padding: 10px 27px;
+        transition: ease 0.4s;
+    }
+        
     }
     .navlist a:hover{
         background: var(--bg-color);
@@ -434,7 +436,7 @@ header.sticky{
         grid-gap: 1rem;
     }
 }
-
+    
 
   .marquee {
     flex: 0 0 auto;
@@ -448,16 +450,16 @@ header.sticky{
     animation-delay: var(--delay);
     animation-direction: var(--direction);
   }
-
-
+   
+ 
  .timeline{
-
+    
     position: relative;
     max-width: 1200px;
     margin: 100px auto;
 }
 .container {
-
+   
     padding: 10px 50px;
     position:relative;
     width: 50%;
@@ -526,7 +528,7 @@ header.sticky{
     margin-left: 0px;
     z-index: -1;
     animation: moveline 4s linear forwards;
-
+    
 }
 @keyframes moveline{
     0%{
@@ -674,22 +676,22 @@ form button{
     }
     .about-left-content{
     box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
-
+    
     -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0,0, 0.39);
     -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0,0.39);
     }
     .about-img img{
         display: block;
         width: 200px;
-
-
+        
+       
         }
         .about-img{
         width: 200px;
         height: 200px;
         overflow: hidden;
         border-radius: 50%;
-
+       
         transition: all 0.5s ease-in-out;
         }
         shadow{
@@ -822,7 +824,7 @@ form button{
                 padding: 0.9rem;
                 opacity: 2;
             }
-
+            
             @media screen and (min-width: 980px){
                 .about-wrapper{
                     display: grid;
@@ -866,7 +868,7 @@ form button{
                     align-items: center;
                     justify-content: center;
                     height: 25vh;
-
+                    
                     }
                     .about-left-content > div{
                     text-align: center;
@@ -874,12 +876,12 @@ form button{
                     height: 100%;
                     }
                     .about-right{
-
+                   
                         height: 100vh;
-
+                        
                         flex-direction: column;
-
-
+                        
+                        
                     }
                     .try{
                         width: 100%;
@@ -901,23 +903,23 @@ form button{
                         margin: 2rem 0;
                     }
                     .btn{
-
+                       
                         font-size: 1.1rem;
-
+                        
                         width: 150px;
                         font-weight: 700;
-
+                       
                         margin: 0 0.4rem;
                         cursor: pointer;
                     }
-
+                   
                     .about-para p{
                         font-weight: 300;
                         font-size: 2rem;
                         padding: 0.3rem;
                         opacity: 2;
                     }
-
+                    
             }
             .skills {
                 display: flex;
@@ -926,15 +928,15 @@ form button{
                 justify-content: flex-start;
                 min-height: 60vh;
                 padding: 2.5rem 0.1rem 2rem 2rem;
-
+               
             }
-
+            
             .skillsHeader {
                 display: flex;
                 align-items: center;
-                justify-content: center;
+                justify-content: center; 
             }
-
+            
             .skillsHeader h2 {
                 font-family: var(--primaryFont);
                 font-style: normal;
@@ -942,22 +944,22 @@ form button{
                 font-size: 3.5rem;
                 text-align: center;
             }
-
+            
             .skillsContainer {
                 display: flex;
                 align-items: center;
-                justify-content: center;
+                justify-content: center; 
                 width: 100%;
                 margin-top: 0.5rem;
                 padding: 0 0.1rem;
             }
-
+            
             .skill--scroll {
                 width: 100%;
                 margin: 0 2rem;
             }
-
-
+            
+            
             .skill--box {
                 background: #FAFAFA;
                 box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.12);
@@ -972,18 +974,18 @@ form button{
                 padding: 2rem 1rem;
                 transition: 300ms ease-in-out;
             }
-
+            
             .skill--box:hover  {
                 transform: scale(1.15);
             }
-
-
+            
+            
             .skill--box > img {
                 height: 50px;
                 pointer-events: none;
             }
-
-
+            
+            
             .skill--box h3 {
                 font-family: Big Shoulders Text;
                 font-style: normal;
@@ -992,13 +994,13 @@ form button{
                 text-align: center;
                 margin-top: 1rem;
             }
-
-
+            
+            
             .marquee {
                 padding: 1rem 0;
             }
-
-
+            
+            
             @media (min-width: 992px) and (max-width: 1380px) {
                 .skills {
                     padding: 2rem 1rem 1rem 1rem;
@@ -1008,8 +1010,8 @@ form button{
                     margin-top: 1.5rem;
                 }
             }
-
-
+            
+            
             @media screen and (max-width: 992px) {
                 .skills {
                     padding: 1rem;
@@ -1028,19 +1030,19 @@ form button{
                     margin: 0.8rem;
                     padding: 2rem 1rem;
                 }
-
+            
                 .skill--box > img {
                     height: 35px;
                 }
-
-
+            
+            
                 .skill--box h3 {
                     font-size: 20px;
                     margin-top: 1rem;
                 }
-
+            
             }
-
+            
             @media screen and (max-width: 800px) {
                 .skills {
                     padding: 0.5rem;
@@ -1051,13 +1053,13 @@ form button{
                 .skillsHeader h2 {
                     font-size: 3rem;
                 }
-
+            
                 .skill--scroll {
                     width: 100%;
                     margin: 0;
                 }
             }
-
+            
             @media screen and (max-width: 600px) {
                 .skill--box {
                     width: 135px;
@@ -1065,35 +1067,35 @@ form button{
                     margin: 1.2rem;
                     padding: 2rem 1rem;
                 }
-
+            
                 .skill--box > img {
                     height: 40px;
                 }
-
+            
                 .skillsHeader h2 {
                     font-size: 2.5rem;
                 }
-
+            
                 .skill--box h3 {
                     font-size: 18px;
                     margin-top: 1rem;
                 }
             }
-
+            
             @media screen and (max-width: 400px) {
-
+            
             }
-
-            @media only screen and (min-device-width: 320px) and (max-device-width:
+              
+            @media only screen and (min-device-width: 320px) and (max-device-width: 
               480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
-
+            
             }
-
-
+            
+            
             @media only screen and (device-width: 768px) {
-
+            
             }
-
+            
             .achievement {
                 min-height: 100vh;
                 display: flex;
@@ -1102,7 +1104,7 @@ form button{
                 align-items: flex-start;
                 padding: 3rem;
             }
-
+            
             .achievement-body {
                 display: flex;
                 flex-direction: column;
@@ -1111,20 +1113,20 @@ form button{
                 flex: 0.4;
                 width: 90%;
             }
-
+            
             .achievement-body h1 {
                 font-family: var(--primaryFont);
                 font-size: 3.5rem;
                 margin-bottom: 1.5rem;
                 margin-left: 55%;
             }
-
+            
             .achievement-body h4 {
                 font-size: 1.75rem;
                 font-family: 'Caveat', cursive;
                 font-weight: 400;
             }
-
+            
             .achievement-cards {
                 padding: 3rem;
                 display: flex;
@@ -1135,7 +1137,7 @@ form button{
                 width: 120%;
                 flex: 0.6;
             }
-
+            
             .achievement-card {
                 display: flex;
                 flex-direction: row;
@@ -1150,16 +1152,16 @@ form button{
                 width: 100%;
                 position: relative;
             }
-
+            
             .achievecard-content {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
                 justify-content: space-around;
                 width: 65%;
-
+               
             }
-
+            
             .achievecard-details2 {
                 display: flex;
                 flex-direction: row;
@@ -1171,22 +1173,22 @@ form button{
                 bottom: 7px;
                 left: 25px;
             }
-
+            
             .achievecard-details2 h5 {
                width: 50%;
             }
-
+            
             .achievecard-field {
                 width: 50%;
                 display: flex;
                 flex-direction: row;
                 align-items: center;
             }
-
+            
             .achievecard-field svg {
                 margin-right: 6px;
             }
-
+            
             .achievecard-details1 h2 {
                 font-family: var(--primaryFont);
                 font-weight: 500;
@@ -1194,28 +1196,28 @@ form button{
                 line-height: 110%;
                 margin-bottom: 6px;
             }
-
+            
             .achievecard-details1 p {
                 font-size: 1.10rem;
                 font-family: Roboto;
                 font-weight: 400;
             }
-
+            
             .achievecard-imgcontainer {
                 width: 23%;
             }
-
+            
             .achievecard-imgcontainer > img {
                 width: 150px;
                 height: 130px;
                 border-radius: 10px;
             }
-
+            
             @media (min-width: 992px) and (max-width: 1380px) {
                 .achievement-card {
                     justify-content: flex-start;
                 }
-
+            
                 .achievement-body {
                     display: flex;
                     flex-direction: column;
@@ -1228,7 +1230,7 @@ form button{
                     font-family: var(--primaryFont);
                     font-size: 3.1rem;
                 }
-
+                
                 .achievement-cards {
                     padding: 1rem;
                     margin-left: 1%;
@@ -1238,9 +1240,9 @@ form button{
                 .achievecard-imgcontainer {
                    margin-left: 1rem;
                 }
-
+            
             }
-
+            
             @media screen and (max-width: 992px) {
                 .achievement{
                     display: flex;
@@ -1250,64 +1252,64 @@ form button{
                     width: 100%;
                     padding: 2rem;
                 }
-
-
+            
+            
                 .achievement-body {
                     width: 100%;
                 }
-
+            
                 .achievement-body h1 {
                     font-size: 2.5rem;
                 }
-
+            
                 .achievement-cards {
                     margin-left: 0%;
                     padding: 1rem 0;
                     width: 80%;
                     margin-top: 1rem;
                 }
-
+            
                 .achievement-card {
                     margin-left: 0px;
                     height: fit-content;
                 }
-
+            
                 .achievecard-content {
                     width: 70%;
                 }
-
+            
                 .achievecard-details1 {
                     margin-bottom: 20px;
                 }
-
+            
                 .achievecard-details1 h2 {
                     font-size: 1.15rem;
                 }
-
+            
                 .achievecard-details1 p {
                     font-size: 0.95rem;
                 }
-
+            
                 .achievecard-details2 {
                     width: 85%;
                     position: absolute;
                     bottom: 7px;
                     left: 25px;
                 }
-
+            
                 .achievecard-imgcontainer {
                     width: 30%;
                     display: flex;
                    justify-content: center;
                 }
-
+            
                 .achievecard-imgcontainer > img {
                     width: 80px;
                     height: 70px;
                 }
-
+                
             }
-
+            
             @media screen and (max-width: 600px) {
                 .achievement{
                     padding: 1rem;
@@ -1316,13 +1318,13 @@ form button{
                     width: 100%;
                 }
             }
-
+            
             @media screen and (max-width: 600px) {
-
+            
                 .achievement-body h4 {
                     font-size: 1.5rem;
                 }
-
+            
                 .achievecard-details1 p {
                     font-size: 0.95rem;
                 }
@@ -1330,5 +1332,7 @@ form button{
                     width: 70px;
                     height: 60px;
                 }
-
+            
             }
+            
+                  
